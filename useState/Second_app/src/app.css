@@ -1,0 +1,15 @@
+#root {
+  margin: 15% ;
+  text-align: center;
+  
+}
+
+button{
+  padding: 5px 15px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+}
