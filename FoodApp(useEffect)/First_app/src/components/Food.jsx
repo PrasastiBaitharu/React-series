@@ -68,7 +68,7 @@ export default function Food() {
           <div>
             <p> Id : {item.id}</p>
             <p>Title : {item.title}</p>
-            <img src={item.image} alt="" />
+            <img src={item.image} />
           </div>
         );
       })}
