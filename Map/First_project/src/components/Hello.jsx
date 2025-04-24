@@ -1,7 +1,7 @@
 const name = "Ram"
 const age = 20;
 const height = 5.9;
-const hobbies = ["Photography" , "Travelling" , "Reading books"]
+const hobbies = ["Photography" , "Travelling" , "Reading books", "Gaming"]
 
 function message(){
   return <p>Good luck for react carrier</p>
