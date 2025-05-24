@@ -18,9 +18,7 @@ export default function App(){
   function violet(){
     setColor("violet")
   }
-  function neon(){
-    setColor("neon")
-  }
+
   return(
     <>
       <div style={{border:"1px solid black" , width:"400px" , height:"400px",backgroundColor:color}}></div>
@@ -29,7 +27,6 @@ export default function App(){
       <button onClick={pink}>Pink</button>
       <button onClick={black}>Black</button>
       <button onClick={violet}>Violet</button>
-      <button onClick={neon}>Neon</button>
     </>
   )
 }
