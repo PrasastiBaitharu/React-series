@@ -25,7 +25,6 @@ export default function App(){
       setValue("")
     }
   }
-  // const [value2 , setValue2] = useState();
   return(
     <>
       <input type="number" value={value} onChange={(e)=>setValue(e.target.value)}/><br />
